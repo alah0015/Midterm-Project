@@ -1,0 +1,315 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+body{
+ line-height: 1;
+}
+
+
+.flex-container {
+  position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    width: 1400px;
+    height: 5800px;
+    background-color: #A40E4C;
+  margin-left: 490px;
+  margin-top:-20px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position:fixed;
+  height:90px;
+  width: 1400px;
+  background-color:#1E1E24;
+  overflow: hidden;
+  margin-top:70px;
+  margin:0 auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family:arial;
+  position:absoloute;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  letter-spacing:2px;
+  margin-top:30px;
+  padding-left:140px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+   font-family:serif;
+    font-color: ;
+    color: #92140C;
+
+}
+
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.topnav2 {
+  position:fixed;
+  height:90px;
+  width: 1400px;
+  background-color:#1E1E24;
+  overflow: hidden;
+  margin-top:970px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav2 a {
+  font-family:arial;
+  position:absoloute;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  letter-spacing:2px;
+  margin-top:30px;
+  padding-left:140px;
+}
+
+/* Change the color of links on hover */
+.topnav2 a:hover {
+   font-family:serif;
+    font-color: ;
+    color: #92140C;
+
+}
+
+
+/* Add a color to the active/current link */
+.topnav2 a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+heading{
+  width:1400px;
+  height:500px;
+}
+
+img{
+  width:500px;
+  height: auto;
+  display: block;
+   margin: 0 auto;
+  margin-top:390px;
+}
+
+
+h1{
+  font-family: serif;
+  font-size: 170px;
+  text-align: center;
+  word-spacing: 60px;
+  display: block;
+   margin: 0 auto;
+
+}
+
+
+h2{
+  font-family: arial;
+  font-size: 25px;
+  text-space: 35px;
+  text-align: center;
+  word-spacing: 15px;
+  letter-spacing: 5px;
+  display: block;
+    margin: 0 auto;
+
+}
+
+
+h3{
+  text-align: center;
+  position: absolute;
+ font-size:100px;
+  color: white;
+  margin: 0 auto;
+  display: block;
+  margin-top:1560px;
+  font-family: serif;
+  padding-left:160px;
+
+  }
+
+
+
+
+.column-1 {
+   padding-top: 70px;
+  padding-left: 60px;
+  position: absolute;
+   background-color: #92140C;
+  background-repeat: no repeat;
+     width: 1340px;
+   height:690px;
+    margin-top:1490px;
+  margin-left -40px;
+
+}
+
+p{
+  margin-top:1700px;
+  margin-left:70px;
+text-spacing:40px;
+  position: absolute;
+  width:690px;
+  height:290px;
+background-color:#FFF8F0;
+  padding-left: 50px;
+  padding-top:55px;
+  font-size: 30px;
+  color: black;
+}
+
+.column-2 {
+    background-image:url("https://metrouk2.files.wordpress.com/2017/08/pri_48957260.jpg");
+   background-repeat: no repeat;
+    float: left;
+    width: 25px;
+  position:absolute;
+ padding: 190px;
+  padding-left: -40px;
+  margin-top:1600px;
+  margin-left:900px;
+}
+
+.column-3, .h3{
+   padding-top: 240px;
+  padding-left: 60px;
+  position: absolute;
+   background-color: #2C2C54;
+  background-repeat: no repeat;
+     width: 1340px;
+   height:1060px;
+    margin-top:2490px;
+  margin-left -40px;
+
+}
+
+
+.btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+  margin-top:60px;
+  margin-left:55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 350px;
+  height:290px;
+
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+
+.column-4 {
+  padding-top: 240px;
+  padding-left: 60px;
+  position: absolute;
+   background-color: #92140C;
+  background-repeat: no repeat;
+     width: 1340px;
+   height:690px;
+    margin-top:3990px;
+  margin-left -40px;
+
+}
+
+
+}
+
+.column-4 {
+  padding-top: 340px;
+  padding-left: 60px;
+  position: absolute;
+   background-color: #1E1E24;
+  background-repeat: no repeat;
+     width: 1340px;
+   height:690px;
+    margin-top:4990px;
+  margin-left -40px;
+
+}
+
+.column-5 {
+  padding-top: 340px;
+  padding-left: 60px;
+  position: absolute;
+   background-color: #1E1E24;
+  background-repeat: no repeat;
+     width: 1340px;
+   height:490px;
+    margin-top:5090px;
+  margin-left -40px;
+
+}
+
+.btn-group-2 .button {
+    background-color: #FFF8F0; /* Green */
+    border-radius: 50%;
+    color: black;
+  margin-top:60px;
+  margin-left:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70px;
+  height:70px;
+
+}
+
+.btn-group-2 .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group-2 .button:hover {
+    background-color: #92140C;
+}
+
+  
